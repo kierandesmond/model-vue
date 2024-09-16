@@ -108,7 +108,7 @@ module.exports = require("vuetify/lib/components/VCombobox");
 
 /***/ }),
 
-/***/ "2e63":
+/***/ "2771":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
@@ -129,10 +129,14 @@ module.exports = require("vuetify/lib/components/VDialog");
 
 /***/ }),
 
-/***/ "4cc2":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "53ab":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicHead_vue_vue_type_style_index_0_id_0107774a_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("e855");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicHead_vue_vue_type_style_index_0_id_0107774a_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicHead_vue_vue_type_style_index_0_id_0107774a_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
 
 /***/ }),
 
@@ -169,17 +173,21 @@ module.exports = function installComponents (component, components) {
 
 /***/ }),
 
+/***/ "66cb":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicSide_vue_vue_type_style_index_0_id_91e318f0_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a50b");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicSide_vue_vue_type_style_index_0_id_91e318f0_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicSide_vue_vue_type_style_index_0_id_91e318f0_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "6881":
 /***/ (function(module, exports) {
 
 module.exports = require("vuetify/lib/components/VTextField");
-
-/***/ }),
-
-/***/ "6a42":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -306,7 +314,14 @@ module.exports = require("vuetify/lib/components/VSheet");
 /***/ "9224":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"name\":\"@voxgig/model-vue\",\"version\":\"0.15.0\",\"main\":\"./dist/Vxg.umd.js\",\"scripts\":{\"serve\":\"vue-cli-service serve\",\"vue-build\":\"vue-cli-service build --target lib --name Vxg --mode production ./src/vxg.js\",\"vue-watch\":\"vue-cli-service build --target lib --name Vxg ./src/vxg.js --watch --report\",\"lint\":\"vue-cli-service lint\",\"test-off\":\"npm run test-lab-lint && npm run test-mocha\",\"test\":\"npm run test-lab-lint\",\"test-mocha\":\"mocha-webpack --interactive false --webpack-config test/test.webpack.config.js --require test/setup.js test/**/*.spec.js\",\"test-lab\":\"lab -v -P test -t 0 -r console -o stdout -r html -o test/coverage.html\",\"test-lab-lint\":\"lab -v -P test -t 0 -L -r console -o stdout -r html -o test/coverage.html\",\"coveralls\":\"lab -s -P test -r lcov | coveralls\",\"coverage\":\"lab -v -P test -r html > coverage.html\",\"prettier\":\"prettier --write --no-semi --single-quote *.js src/**/*.js test/*.js\",\"clean\":\"rm -rf node_modules yarn.lock package-lock.json\",\"reset\":\"npm run clean && npm i && npm test\",\"repo-check\":\"REPO_VERSION=`node -e \\\"console.log(require('./package').version)\\\"` && echo TAG: v$REPO_VERSION && [[ '' == `git tag --list v${REPO_VERSION}` ]]\",\"repo-tag\":\"REPO_VERSION=`node -e \\\"console.log(require('./package').version)\\\"` && echo TAG: v$REPO_VERSION && git commit -a -m v$REPO_VERSION && git push && git tag v$REPO_VERSION && git push --tags;\",\"repo-publish\":\"npm run repo-check && npm run clean && npm i --registry https://registry.npmjs.org && npm run prettier && npm run vue-build && npm test && npm run repo-tag && npm publish --registry https://registry.npmjs.org\",\"repo-publish-quick\":\"npm run repo-check && npm run prettier && npm run vue-build && npm run repo-tag && npm publish --registry https://registry.npmjs.org --access=public\"},\"files\":[\"dist/*\",\"src/*\",\"public/*\",\"*.json\",\"*.js\"],\"devDependencies\":{\"@hapi/code\":\"8.0.3\",\"@hapi/eslint-plugin\":\"6.0.0\",\"@hapi/joi\":\"17.1.1\",\"@hapi/lab\":\"24.3.2\",\"@jsonic/jsonic-next\":\"2.4.3\",\"@vue/cli-plugin-babel\":\"4.5.13\",\"@vue/cli-plugin-eslint\":\"4.5.13\",\"@vue/cli-plugin-vuex\":\"4.5.13\",\"@vue/cli-service\":\"4.5.13\",\"@vue/eslint-config-prettier\":\"6.0.0\",\"@vue/test-utils\":\"1.2.2\",\"babel-eslint\":\"10.1.0\",\"core-js\":\"3\",\"deepmerge\":\"4.2.2\",\"eslint\":\"6\",\"eslint-plugin-prettier\":\"3\",\"eslint-plugin-vue\":\"7.18.0\",\"expect\":\"27.2.4\",\"fibers\":\"5.0.0\",\"gubu\":\"4.0.0\",\"jsdom\":\"17.0.0\",\"jsdom-global\":\"3.0.2\",\"mocha\":\"4\",\"mocha-webpack\":\"2.0.0-beta.0\",\"nua\":\"2.0.1\",\"patrun\":\"7.2.5\",\"prettier\":\"2.7.1\",\"sass\":\"1.34.0\",\"sass-loader\":\"10\",\"vue\":\"2.6.12\",\"vue-cli-plugin-vuetify\":\"2.4.0\",\"vue-router\":\"3.5.2\",\"vue-template-compiler\":\"2.6.12\",\"vuetify\":\"2.5.1\",\"vuetify-loader\":\"1.7.2\",\"vuex\":\"3.4.0\",\"webpack-node-externals\":\"3.0.0\",\"@seneca/search-mini\":\"0.1.2\"}}");
+module.exports = JSON.parse("{\"name\":\"@voxgig/model-vue\",\"version\":\"0.16.0\",\"main\":\"./dist/Vxg.umd.js\",\"scripts\":{\"serve\":\"vue-cli-service serve\",\"vue-build\":\"vue-cli-service build --target lib --name Vxg --mode production ./src/vxg.js\",\"vue-watch\":\"vue-cli-service build --target lib --name Vxg ./src/vxg.js --watch --report\",\"lint\":\"vue-cli-service lint\",\"test-off\":\"npm run test-lab-lint && npm run test-mocha\",\"test\":\"npm run test-lab-lint\",\"test-mocha\":\"mocha-webpack --interactive false --webpack-config test/test.webpack.config.js --require test/setup.js test/**/*.spec.js\",\"test-lab\":\"lab -v -P test -t 0 -r console -o stdout -r html -o test/coverage.html\",\"test-lab-lint\":\"lab -v -P test -t 0 -L -r console -o stdout -r html -o test/coverage.html\",\"coveralls\":\"lab -s -P test -r lcov | coveralls\",\"coverage\":\"lab -v -P test -r html > coverage.html\",\"prettier\":\"prettier --write --no-semi --single-quote *.js src/**/*.js test/*.js\",\"clean\":\"rm -rf node_modules yarn.lock package-lock.json\",\"reset\":\"npm run clean && npm i && npm test\",\"repo-check\":\"REPO_VERSION=`node -e \\\"console.log(require('./package').version)\\\"` && echo TAG: v$REPO_VERSION && [[ '' == `git tag --list v${REPO_VERSION}` ]]\",\"repo-tag\":\"REPO_VERSION=`node -e \\\"console.log(require('./package').version)\\\"` && echo TAG: v$REPO_VERSION && git commit -a -m v$REPO_VERSION && git push && git tag v$REPO_VERSION && git push --tags;\",\"repo-publish\":\"npm run repo-check && npm run clean && npm i --registry https://registry.npmjs.org && npm run prettier && npm run vue-build && npm test && npm run repo-tag && npm publish --registry https://registry.npmjs.org\",\"repo-publish-quick\":\"npm run repo-check && npm run prettier && npm run vue-build && npm run repo-tag && npm publish --registry https://registry.npmjs.org --access=public\"},\"files\":[\"dist/*\",\"src/*\",\"public/*\",\"*.json\",\"*.js\"],\"devDependencies\":{\"@hapi/code\":\"8.0.3\",\"@hapi/eslint-plugin\":\"6.0.0\",\"@hapi/joi\":\"17.1.1\",\"@hapi/lab\":\"24.3.2\",\"@jsonic/jsonic-next\":\"2.4.3\",\"@vue/cli-plugin-babel\":\"4.5.13\",\"@vue/cli-plugin-eslint\":\"4.5.13\",\"@vue/cli-plugin-vuex\":\"4.5.13\",\"@vue/cli-service\":\"4.5.13\",\"@vue/eslint-config-prettier\":\"6.0.0\",\"@vue/test-utils\":\"1.2.2\",\"babel-eslint\":\"10.1.0\",\"core-js\":\"3\",\"deepmerge\":\"4.2.2\",\"eslint\":\"6\",\"eslint-plugin-prettier\":\"3\",\"eslint-plugin-vue\":\"7.18.0\",\"expect\":\"27.2.4\",\"fibers\":\"5.0.0\",\"gubu\":\"4.0.0\",\"jsdom\":\"17.0.0\",\"jsdom-global\":\"3.0.2\",\"mocha\":\"4\",\"mocha-webpack\":\"2.0.0-beta.0\",\"nua\":\"2.0.1\",\"patrun\":\"7.2.5\",\"prettier\":\"2.7.1\",\"sass\":\"1.34.0\",\"sass-loader\":\"10\",\"vue\":\"2.6.12\",\"vue-cli-plugin-vuetify\":\"2.4.0\",\"vue-router\":\"3.5.2\",\"vue-template-compiler\":\"2.6.12\",\"vuetify\":\"2.5.1\",\"vuetify-loader\":\"1.7.2\",\"vuex\":\"3.4.0\",\"webpack-node-externals\":\"3.0.0\",\"@seneca/search-mini\":\"0.1.2\"}}");
+
+/***/ }),
+
+/***/ "a50b":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -331,32 +346,10 @@ module.exports = require("vuetify/lib/components/VCard");
 
 /***/ }),
 
-/***/ "bef7":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicLed_vue_vue_type_style_index_0_id_7167a536_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6a42");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicLed_vue_vue_type_style_index_0_id_7167a536_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicLed_vue_vue_type_style_index_0_id_7167a536_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "bfa4":
 /***/ (function(module, exports) {
 
 module.exports = require("vuetify/lib/components/VSelect");
-
-/***/ }),
-
-/***/ "c00d":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicSide_vue_vue_type_style_index_0_id_91e318f0_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("4cc2");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicSide_vue_vue_type_style_index_0_id_91e318f0_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicSide_vue_vue_type_style_index_0_id_91e318f0_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
 
 /***/ }),
 
@@ -387,17 +380,6 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "d355":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicHead_vue_vue_type_style_index_0_id_11a5690a_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2e63");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicHead_vue_vue_type_style_index_0_id_11a5690a_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicHead_vue_vue_type_style_index_0_id_11a5690a_prod_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "d7c8":
 /***/ (function(module, exports) {
 
@@ -416,6 +398,24 @@ module.exports = require("vuetify/lib/components/VBtnToggle");
 /***/ (function(module, exports) {
 
 module.exports = require("vuetify/lib/components/VToolbar");
+
+/***/ }),
+
+/***/ "e7fb":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicLed_vue_vue_type_style_index_0_id_7167a536_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2771");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicLed_vue_vue_type_style_index_0_id_7167a536_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BasicLed_vue_vue_type_style_index_0_id_7167a536_prod_lang_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
+/***/ "e855":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -497,14 +497,14 @@ var jsonic_min_default = /*#__PURE__*/__webpack_require__.n(jsonic_min);
 // EXTERNAL MODULE: ./src/vxg.scss
 var vxg = __webpack_require__("f17e");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14b72d9c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicAdmin.vue?vue&type=template&id=7ae7ff14&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"39d063aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicAdmin.vue?vue&type=template&id=7ae7ff14
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-app',{attrs:{"id":"app"}},[_c('vxg-basic-head',{attrs:{"spec":_vm.spec.parts.head,"logo":_vm.logo},on:{"action":function($event){return _vm.action('BasicHead', $event)}}}),(_vm.showSide)?_c('vxg-basic-side',{attrs:{"spec":_vm.spec.parts.side,"logo":_vm.logo},on:{"action":function($event){return _vm.action('BasicSide', $event)}}}):_vm._e(),_c('vxg-basic-main',{attrs:{"spec":_vm.spec.parts.main}}),_c('vxg-basic-foot',{attrs:{"spec":_vm.spec.parts.foot}})],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BasicAdmin.vue?vue&type=template&id=7ae7ff14&
+// CONCATENATED MODULE: ./src/components/BasicAdmin.vue?vue&type=template&id=7ae7ff14
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicAdmin.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicAdmin.vue?vue&type=script&lang=js
 //
 //
 //
@@ -536,7 +536,7 @@ var staticRenderFns = []
 //
 //
 
-/* harmony default export */ var BasicAdminvue_type_script_lang_js_ = ({
+/* harmony default export */ var BasicAdminvue_type_script_lang_js = ({
   props: ['logo'],
   data: function data() {
     return {
@@ -560,8 +560,8 @@ var staticRenderFns = []
     }
   }
 });
-// CONCATENATED MODULE: ./src/components/BasicAdmin.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_BasicAdminvue_type_script_lang_js_ = (BasicAdminvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/BasicAdmin.vue?vue&type=script&lang=js
+ /* harmony default export */ var components_BasicAdminvue_type_script_lang_js = (BasicAdminvue_type_script_lang_js); 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
@@ -676,7 +676,7 @@ var VApp_ = __webpack_require__("7013");
 /* normalize component */
 
 var component = normalizeComponent(
-  components_BasicAdminvue_type_script_lang_js_,
+  components_BasicAdminvue_type_script_lang_js,
   render,
   staticRenderFns,
   false,
@@ -693,8 +693,8 @@ var component = normalizeComponent(
 
 installComponents_default()(component, {VApp: VApp_["VApp"]})
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14b72d9c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicHead.vue?vue&type=template&id=11a5690a&
-var BasicHeadvue_type_template_id_11a5690a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-app-bar',{staticClass:"vxg-app-bar",attrs:{"app":""}},[(!_vm.drawerOpen && _vm.tool.expandSide.active)?_c('v-icon',{staticStyle:{"display":"inline-block"},attrs:{"large":"","light":""},on:{"click":_vm.openDrawer}},[_vm._v("mdi-chevron-right")]):_vm._e(),(!_vm.drawerOpen && _vm.tool.expandSide.active)?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(_vm.show('clear') && _vm.tool.clear.active)?_c('v-btn',{staticStyle:{"max-width":"16%","display":"inline-block","margin-left":"2px"},attrs:{"outlined":""},on:{"click":_vm.clearFilter}},[_vm._v("Clear")]):_vm._e(),(_vm.show('go') && _vm.tool.go.active)?_c('v-btn',{staticStyle:{"max-width":"16%","display":"inline-block","margin-left":"6px"},attrs:{"outlined":"","disabled":_vm.filterDisabled},on:{"click":_vm.filterAssets}},[_vm._v("Go")]):_vm._e(),(_vm.show('select') && _vm.tool.select.active)?_c('v-select',{ref:"select",staticStyle:{"max-width":"20%","display":"inline-block","margin-left":"10px"},attrs:{"items":_vm.selectItems(),"label":_vm.tool.select.title,"tile":"","outlined":"","hide-details":"","dense":""},model:{value:(_vm.select),callback:function ($$v) {_vm.select=$$v},expression:"select"}}):_vm._e(),((_vm.show('select') && _vm.tool.select.active) || (_vm.show('go') && _vm.tool.go.active))?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(_vm.show('add') && _vm.tool.add.active)?_c('v-btn',{staticClass:"vxg-head-btn",attrs:{"tile":""},on:{"click":_vm.addItem}},[_c('v-icon',{attrs:{"left":"","medium":""}},[_vm._v(" mdi-map-marker-path ")]),_vm._v(" Add "+_vm._s(_vm.itemName)+" ")],1):_vm._e(),(_vm.show('add') && _vm.tool.add.active)?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(_vm.show('remove') && _vm.tool.remove.active)?_c('v-btn',{staticClass:"vxg-head-btn",attrs:{"tile":""},on:{"click":_vm.removeItem}},[_c('v-icon',{attrs:{"left":"","medium":""}},[_vm._v(" mdi-map-marker-path ")]),_vm._v(" Remove "+_vm._s(_vm.itemName)+" ")],1):_vm._e(),(_vm.show('remove') && _vm.tool.remove.active)?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(_vm.tool.search.active && _vm.show('search'))?_c('v-combobox',{ref:"search",attrs:{"items":_vm.tag_items,"flat":"","hide-details":"","outlined":"","dense":"","clearable":"","placeholder":"Search","append-icon":_vm.filterIcon?'mdi-tune':undefined,"filter":_vm.customFilter},on:{"keydown":function($event){return _vm.changeSearch($event)},"click:clear":function($event){return _vm.changeSearch($event)},"click:append":_vm.filter},model:{value:(_vm.search),callback:function ($$v) {_vm.search=$$v},expression:"search"}}):_vm._e(),(_vm.tool.avatar.active || _vm.tool.expandMain.active)?_c('v-spacer'):_vm._e(),(_vm.tool.avatar.active)?_c('v-icon',{staticStyle:{"display":"inline-block"},attrs:{"large":"","light":""},on:{"click":function($event){return _vm.action('avatar')}}},[_vm._v("mdi-account")]):_vm._e(),(!_vm.detailOpen && _vm.tool.expandMain.active)?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(!_vm.detailOpen && _vm.tool.expandMain.active)?_c('v-icon',{staticStyle:{"display":"inline-block"},attrs:{"large":"","light":""},on:{"click":_vm.closeDetail}},[_vm._v("mdi-chevron-left")]):_vm._e(),(_vm.show('print'))?_c('v-divider',{attrs:{"vertical":""}}):_vm._e(),(_vm.show('print'))?_c('v-tooltip',{attrs:{"bottom":""},scopedSlots:_vm._u([{key:"activator",fn:function(ref){
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"39d063aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicHead.vue?vue&type=template&id=0107774a
+var BasicHeadvue_type_template_id_0107774a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-app-bar',{staticClass:"vxg-app-bar",attrs:{"app":""}},[(!_vm.drawerOpen && _vm.tool.expandSide.active)?_c('v-icon',{staticStyle:{"display":"inline-block"},attrs:{"large":"","light":""},on:{"click":_vm.openDrawer}},[_vm._v("mdi-chevron-right")]):_vm._e(),(!_vm.drawerOpen && _vm.tool.expandSide.active)?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(_vm.show('clear') && _vm.tool.clear.active)?_c('v-btn',{staticStyle:{"max-width":"16%","display":"inline-block","margin-left":"2px"},attrs:{"outlined":""},on:{"click":_vm.clearFilter}},[_vm._v("Clear")]):_vm._e(),(_vm.show('go') && _vm.tool.go.active)?_c('v-btn',{staticStyle:{"max-width":"16%","display":"inline-block","margin-left":"6px"},attrs:{"outlined":"","disabled":_vm.filterDisabled},on:{"click":_vm.filterAssets}},[_vm._v("Go")]):_vm._e(),(_vm.show('select') && _vm.tool.select.active)?_c('v-select',{ref:"select",staticStyle:{"max-width":"20%","display":"inline-block","margin-left":"10px"},attrs:{"items":_vm.selectItems(),"label":_vm.tool.select.title,"tile":"","outlined":"","hide-details":"","dense":""},model:{value:(_vm.select),callback:function ($$v) {_vm.select=$$v},expression:"select"}}):_vm._e(),((_vm.show('select') && _vm.tool.select.active) || (_vm.show('go') && _vm.tool.go.active))?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(_vm.show('add') && _vm.tool.add.active)?_c('v-btn',{staticClass:"vxg-head-btn",attrs:{"tile":""},on:{"click":_vm.addItem}},[_c('v-icon',{attrs:{"left":"","medium":""}},[_vm._v(" mdi-map-marker-path ")]),_vm._v(" Add "+_vm._s(_vm.itemName == 'Asset' ? 'Fixed Asset' : _vm.itemName)+" ")],1):_vm._e(),(_vm.show('addmobile') && _vm.tool.add.active)?_c('v-btn',{staticClass:"vxg-head-btn",attrs:{"tile":""},on:{"click":_vm.addMobileAsset}},[_c('v-icon',{attrs:{"left":"","medium":""}},[_vm._v(" mdi-map-marker-path ")]),_vm._v(" Add Mobile Asset ")],1):_vm._e(),(_vm.show('add') && _vm.tool.add.active)?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(_vm.show('remove') && _vm.tool.remove.active)?_c('v-btn',{staticClass:"vxg-head-btn",attrs:{"tile":""},on:{"click":_vm.removeItem}},[_c('v-icon',{attrs:{"left":"","medium":""}},[_vm._v(" mdi-map-marker-path ")]),_vm._v(" Remove "+_vm._s(_vm.itemName)+" ")],1):_vm._e(),(_vm.show('remove') && _vm.tool.remove.active)?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(_vm.tool.search.active && _vm.show('search'))?_c('v-combobox',{ref:"search",attrs:{"items":_vm.tag_items,"flat":"","hide-details":"","outlined":"","dense":"","clearable":"","placeholder":"Search","append-icon":_vm.filterIcon?'mdi-tune':undefined,"filter":_vm.customFilter},on:{"keydown":function($event){return _vm.changeSearch($event)},"click:clear":function($event){return _vm.changeSearch($event)},"click:append":_vm.filter},model:{value:(_vm.search),callback:function ($$v) {_vm.search=$$v},expression:"search"}}):_vm._e(),(_vm.tool.avatar.active || _vm.tool.expandMain.active)?_c('v-spacer'):_vm._e(),(_vm.tool.avatar.active)?_c('v-icon',{staticStyle:{"display":"inline-block"},attrs:{"large":"","light":""},on:{"click":function($event){return _vm.action('avatar')}}},[_vm._v("mdi-account")]):_vm._e(),(!_vm.detailOpen && _vm.tool.expandMain.active)?_c('v-divider',{staticStyle:{"margin":"0px 16px"},attrs:{"vertical":""}}):_vm._e(),(!_vm.detailOpen && _vm.tool.expandMain.active)?_c('v-icon',{staticStyle:{"display":"inline-block"},attrs:{"large":"","light":""},on:{"click":_vm.closeDetail}},[_vm._v("mdi-chevron-left")]):_vm._e(),(_vm.show('print'))?_c('v-divider',{attrs:{"vertical":""}}):_vm._e(),(_vm.show('print'))?_c('v-tooltip',{attrs:{"bottom":""},scopedSlots:_vm._u([{key:"activator",fn:function(ref){
 var on = ref.on;
 var attrs = ref.attrs;
 return [(_vm.tool.print.active && _vm.show('print'))?_c('v-btn',_vm._g(_vm._b({staticClass:"pa-1 ma-1",staticStyle:{"height":"55px"},attrs:{"large":"","elevation":"0","color":"white","disabled":_vm.tool.print.disabled},on:{"click":function($event){return _vm.print()}}},'v-btn',attrs,false),on),[_c('v-icon',{staticClass:"vxg-icon",attrs:{"large":""}},[_vm._v("mdi-printer")])],1):_vm._e()]}}],null,false,772587149)},[_c('span',[_vm._v(_vm._s('PRINT'))])]):_vm._e(),(_vm.show('print'))?_c('v-divider',{attrs:{"vertical":""}}):_vm._e(),(_vm.show('bookmark'))?_c('v-tooltip',{attrs:{"bottom":""},scopedSlots:_vm._u([{key:"activator",fn:function(ref){
@@ -704,17 +704,17 @@ return [(_vm.tool.bookmark.active && _vm.show('bookmark'))?_c('v-btn',_vm._g(_vm
 var on = ref.on;
 var attrs = ref.attrs;
 return [(_vm.tool['collect'].active && _vm.show('collect'))?_c('v-btn',_vm._g(_vm._b({staticClass:"pa-1 ma-1",staticStyle:{"height":"55px"},attrs:{"large":"","elevation":"0","color":"white"},on:{"click":function($event){return _vm.collect()}}},'v-btn',attrs,false),on),[_c('v-icon',{staticClass:"vxg-icon",attrs:{"large":""}},[_vm._v("mdi-folder-open-outline")])],1):_vm._e()]}}],null,false,3197050641)},[_c('span',[_vm._v(_vm._s('ASSET COLLECTION'))])]):_vm._e(),(_vm.show('collect'))?_c('v-divider',{attrs:{"vertical":""}}):_vm._e()],1)}
-var BasicHeadvue_type_template_id_11a5690a_staticRenderFns = []
+var BasicHeadvue_type_template_id_0107774a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BasicHead.vue?vue&type=template&id=11a5690a&
+// CONCATENATED MODULE: ./src/components/BasicHead.vue?vue&type=template&id=0107774a
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicHead.vue?vue&type=script&lang=js&
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicHead.vue?vue&type=script&lang=js
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, defineProperty = Object.defineProperty || function (obj, key, desc) { obj[key] = desc.value; }, $Symbol = "function" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || "@@iterator", asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator", toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, ""); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return defineProperty(generator, "_invoke", { value: makeInvokeMethod(innerFn, self, context) }), generator; } function tryCatch(fn, obj, arg) { try { return { type: "normal", arg: fn.call(obj, arg) }; } catch (err) { return { type: "throw", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { ["next", "throw", "return"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if ("throw" !== record.type) { var result = record.arg, value = result.value; return value && "object" == _typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke("next", value, resolve, reject); }, function (err) { invoke("throw", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke("throw", error, resolve, reject); }); } reject(record.arg); } var previousPromise; defineProperty(this, "_invoke", { value: function value(method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(innerFn, self, context) { var state = "suspendedStart"; return function (method, arg) { if ("executing" === state) throw new Error("Generator is already running"); if ("completed" === state) { if ("throw" === method) throw arg; return doneResult(); } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) { if ("suspendedStart" === state) throw state = "completed", context.arg; context.dispatchException(context.arg); } else "return" === context.method && context.abrupt("return", context.arg); state = "executing"; var record = tryCatch(innerFn, self, context); if ("normal" === record.type) { if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg); } }; } function maybeInvokeDelegate(delegate, context) { var methodName = context.method, method = delegate.iterator[methodName]; if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator.return && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel; var record = tryCatch(method, delegate.iterator, context.arg); if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = "normal", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: "root" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if ("function" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) { if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; } return next.value = undefined, next.done = !0, next; }; return next.next = next; } } return { next: doneResult }; } function doneResult() { return { value: undefined, done: !0 }; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), defineProperty(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) { var ctor = "function" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, "toString", function () { return "[object Generator]"; }), exports.keys = function (val) { var object = Object(val), keys = []; for (var key in object) { keys.push(key); } return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) { "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); } }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if ("throw" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if ("root" === entry.tryLoc) return handle("end"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, "catchLoc"), hasFinally = hasOwn.call(entry, "finallyLoc"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error("try statement without catch or finally"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if ("throw" === record.type) throw record.arg; return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, catch: function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if ("throw" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, "next" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator.return && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, catch: function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 //
@@ -915,11 +915,27 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 function tag_alias(asset) {
-  return asset.tag + ('' == asset.custom12 ? '' : ' (' + asset.custom12 + ')');
+  if (null != asset.custom12) {
+    return asset.tag + '(' + asset.custom12 + ')';
+  }
+  return asset.tag;
 }
-/* harmony default export */ var BasicHeadvue_type_script_lang_js_ = ({
+/* harmony default export */ var BasicHeadvue_type_script_lang_js = ({
   props: ['logo'],
   data: function data() {
     return {
@@ -938,37 +954,33 @@ function tag_alias(asset) {
     return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
       var tool, tag_items, load_assets;
       return _regeneratorRuntime().wrap(function _callee2$(_context2) {
-        while (1) {
-          switch (_context2.prev = _context2.next) {
-            case 0:
-              tool = {};
-              tag_items = [];
-              load_assets = setInterval( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-                return _regeneratorRuntime().wrap(function _callee$(_context) {
-                  while (1) {
-                    switch (_context.prev = _context.next) {
-                      case 0:
-                        _context.next = 2;
-                        return _this.$store.dispatch('vxg_get_assets', tool);
-                      case 2:
-                        _this.items = tool.assets;
-                        if (_this.items.length != 0) {
-                          // this.tag_items = this.items.map(v => v.tag+(''==v.custom12?'':' ('+v.custom12+')'))
-                          _this.tag_items = _this.items.map(tag_alias);
-                          _this.setupMiniSearch(_this.items);
-                          clearInterval(load_assets);
-                        }
-                      case 4:
-                      case "end":
-                        return _context.stop();
+        while (1) switch (_context2.prev = _context2.next) {
+          case 0:
+            tool = {};
+            tag_items = [];
+            load_assets = setInterval( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+              return _regeneratorRuntime().wrap(function _callee$(_context) {
+                while (1) switch (_context.prev = _context.next) {
+                  case 0:
+                    _context.next = 2;
+                    return _this.$store.dispatch('vxg_get_assets', tool);
+                  case 2:
+                    _this.items = tool.assets;
+                    if (_this.items.length != 0) {
+                      // this.tag_items = this.items.map(v => v.tag+(''==v.custom12?'':' ('+v.custom12+')'))
+                      _this.tag_items = _this.items.map(tag_alias);
+                      _this.setupMiniSearch(_this.items);
+                      clearInterval(load_assets);
                     }
-                  }
-                }, _callee);
-              })), 111);
-            case 3:
-            case "end":
-              return _context2.stop();
-          }
+                  case 4:
+                  case "end":
+                    return _context.stop();
+                }
+              }, _callee);
+            })), 111);
+          case 3:
+          case "end":
+            return _context2.stop();
         }
       }, _callee2);
     }))();
@@ -983,11 +995,13 @@ function tag_alias(asset) {
       }
     },
     search: function search(val) {
-      var term = val;
-      var m = term.match(/^([^(]+)\s*\([^)]+\)$/);
-      if (m) {
-        term = m[1].trim();
-      }
+      var term = val || '';
+      term.trim();
+      // Todo: Is it necessary?
+      // let m = term.match(/^([^(]+)\s*\([^)]+\)$/)
+      // if(m) {
+      //   term = m[1].trim()
+      // }
       // this.$store.dispatch('trigger_search', {term:this.search})
       this.$store.dispatch('trigger_search', {
         term: term
@@ -1062,27 +1076,25 @@ function tag_alias(asset) {
       return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
         var _iterator, _step, item;
         return _regeneratorRuntime().wrap(function _callee3$(_context3) {
-          while (1) {
-            switch (_context3.prev = _context3.next) {
-              case 0:
-                _iterator = _createForOfIteratorHelper(items);
-                try {
-                  for (_iterator.s(); !(_step = _iterator.n()).done;) {
-                    item = _step.value;
-                    // item = {...item}
-                    _this2.$seneca.post('sys:search, cmd:add', {
-                      doc: item
-                    });
-                  }
-                } catch (err) {
-                  _iterator.e(err);
-                } finally {
-                  _iterator.f();
+          while (1) switch (_context3.prev = _context3.next) {
+            case 0:
+              _iterator = _createForOfIteratorHelper(items);
+              try {
+                for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                  item = _step.value;
+                  // item = {...item}
+                  _this2.$seneca.post('sys:search, cmd:add', {
+                    doc: item
+                  });
                 }
-              case 2:
-              case "end":
-                return _context3.stop();
-            }
+              } catch (err) {
+                _iterator.e(err);
+              } finally {
+                _iterator.f();
+              }
+            case 2:
+            case "end":
+              return _context3.stop();
           }
         }, _callee3);
       }))();
@@ -1097,36 +1109,34 @@ function tag_alias(asset) {
       setTimeout( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
         var term, out;
         return _regeneratorRuntime().wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                // wait for input
+          while (1) switch (_context4.prev = _context4.next) {
+            case 0:
+              // wait for input
 
-                term = event.target ? event.target._value : null;
-                if (!term) {
-                  _context4.next = 8;
-                  break;
-                }
-                _context4.next = 4;
-                return _this3.$seneca.post('sys:search, cmd:search', {
-                  query: term,
-                  params: _this3.search_config
-                });
-              case 4:
-                out = _context4.sent;
-                // this.tag_items = out.data.hits.map(v => v.id)
-                _this3.tag_items = out.data.hits.map(function (v) {
-                  return tag_alias(v.doc);
-                });
-                _context4.next = 9;
+              term = event.target ? event.target._value : null;
+              if (!term) {
+                _context4.next = 8;
                 break;
-              case 8:
-                // this.tag_items = this.items.map(v => v.tag)
-                _this3.tag_items = _this3.items.map(tag_alias);
-              case 9:
-              case "end":
-                return _context4.stop();
-            }
+              }
+              _context4.next = 4;
+              return _this3.$seneca.post('sys:search, cmd:search', {
+                query: term,
+                params: _this3.search_config
+              });
+            case 4:
+              out = _context4.sent;
+              // this.tag_items = out.data.hits.map(v => v.id)
+              _this3.tag_items = out.data.hits.map(function (v) {
+                return tag_alias(v.doc);
+              });
+              _context4.next = 9;
+              break;
+            case 8:
+              // this.tag_items = this.items.map(v => v.tag)
+              _this3.tag_items = _this3.items.map(tag_alias);
+            case 9:
+            case "end":
+              return _context4.stop();
           }
         }, _callee4);
       })), 11);
@@ -1160,6 +1170,9 @@ function tag_alias(asset) {
     },
     addItem: function addItem() {
       this.$store.dispatch('trigger_led_add');
+    },
+    addMobileAsset: function addMobileAsset() {
+      this.$store.dispatch('trigger_led_add_mobile');
     },
     removeItem: function removeItem() {
       this.$store.dispatch('trigger_led_remove');
@@ -1208,10 +1221,10 @@ function tag_alias(asset) {
     }
   }
 });
-// CONCATENATED MODULE: ./src/components/BasicHead.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_BasicHeadvue_type_script_lang_js_ = (BasicHeadvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/BasicHead.vue?vue&type=style&index=0&id=11a5690a&prod&lang=scss&
-var BasicHeadvue_type_style_index_0_id_11a5690a_prod_lang_scss_ = __webpack_require__("d355");
+// CONCATENATED MODULE: ./src/components/BasicHead.vue?vue&type=script&lang=js
+ /* harmony default export */ var components_BasicHeadvue_type_script_lang_js = (BasicHeadvue_type_script_lang_js); 
+// EXTERNAL MODULE: ./src/components/BasicHead.vue?vue&type=style&index=0&id=0107774a&prod&lang=scss
+var BasicHeadvue_type_style_index_0_id_0107774a_prod_lang_scss = __webpack_require__("53ab");
 
 // EXTERNAL MODULE: external "vuetify/lib/components/VAppBar"
 var VAppBar_ = __webpack_require__("d7c8");
@@ -1247,9 +1260,9 @@ var VTooltip_ = __webpack_require__("e8e3");
 /* normalize component */
 
 var BasicHead_component = normalizeComponent(
-  components_BasicHeadvue_type_script_lang_js_,
-  BasicHeadvue_type_template_id_11a5690a_render,
-  BasicHeadvue_type_template_id_11a5690a_staticRenderFns,
+  components_BasicHeadvue_type_script_lang_js,
+  BasicHeadvue_type_template_id_0107774a_render,
+  BasicHeadvue_type_template_id_0107774a_staticRenderFns,
   false,
   null,
   null,
@@ -1271,14 +1284,14 @@ var BasicHead_component = normalizeComponent(
 
 installComponents_default()(BasicHead_component, {VAppBar: VAppBar_["VAppBar"],VBtn: VBtn_["VBtn"],VCombobox: VCombobox_["VCombobox"],VDivider: VDivider_["VDivider"],VIcon: VIcon_["VIcon"],VSelect: VSelect_["VSelect"],VSpacer: VGrid_["VSpacer"],VTooltip: VTooltip_["VTooltip"]})
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14b72d9c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicFoot.vue?vue&type=template&id=585b97d2&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"39d063aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicFoot.vue?vue&type=template&id=585b97d2
 var BasicFootvue_type_template_id_585b97d2_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._v("___")])}
 var BasicFootvue_type_template_id_585b97d2_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BasicFoot.vue?vue&type=template&id=585b97d2&
+// CONCATENATED MODULE: ./src/components/BasicFoot.vue?vue&type=template&id=585b97d2
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicFoot.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicFoot.vue?vue&type=script&lang=js
 //
 //
 //
@@ -1286,14 +1299,14 @@ var BasicFootvue_type_template_id_585b97d2_staticRenderFns = []
 //
 //
 
-/* harmony default export */ var BasicFootvue_type_script_lang_js_ = ({
+/* harmony default export */ var BasicFootvue_type_script_lang_js = ({
   data: function data() {
     return {};
   },
   created: function created() {}
 });
-// CONCATENATED MODULE: ./src/components/BasicFoot.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_BasicFootvue_type_script_lang_js_ = (BasicFootvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/BasicFoot.vue?vue&type=script&lang=js
+ /* harmony default export */ var components_BasicFootvue_type_script_lang_js = (BasicFootvue_type_script_lang_js); 
 // CONCATENATED MODULE: ./src/components/BasicFoot.vue
 
 
@@ -1303,7 +1316,7 @@ var BasicFootvue_type_template_id_585b97d2_staticRenderFns = []
 /* normalize component */
 
 var BasicFoot_component = normalizeComponent(
-  components_BasicFootvue_type_script_lang_js_,
+  components_BasicFootvue_type_script_lang_js,
   BasicFootvue_type_template_id_585b97d2_render,
   BasicFootvue_type_template_id_585b97d2_staticRenderFns,
   false,
@@ -1314,14 +1327,14 @@ var BasicFoot_component = normalizeComponent(
 )
 
 /* harmony default export */ var BasicFoot = (BasicFoot_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14b72d9c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicMain.vue?vue&type=template&id=5e096dd0&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"39d063aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicMain.vue?vue&type=template&id=5e096dd0
 var BasicMainvue_type_template_id_5e096dd0_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-main',{attrs:{"app":""}},[_c('v-container',{staticStyle:{"padding":"0px"},attrs:{"fluid":""}},[_c('router-view',{tag:"component",attrs:{"spec":_vm.view_spec}})],1)],1)}
 var BasicMainvue_type_template_id_5e096dd0_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BasicMain.vue?vue&type=template&id=5e096dd0&
+// CONCATENATED MODULE: ./src/components/BasicMain.vue?vue&type=template&id=5e096dd0
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicMain.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicMain.vue?vue&type=script&lang=js
 //
 //
 //
@@ -1341,7 +1354,7 @@ var BasicMainvue_type_template_id_5e096dd0_staticRenderFns = []
 //
 //
 
-/* harmony default export */ var BasicMainvue_type_script_lang_js_ = ({
+/* harmony default export */ var BasicMainvue_type_script_lang_js = ({
   props: {
     /*
     spec: {
@@ -1361,8 +1374,8 @@ var BasicMainvue_type_template_id_5e096dd0_staticRenderFns = []
     }
   }
 });
-// CONCATENATED MODULE: ./src/components/BasicMain.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_BasicMainvue_type_script_lang_js_ = (BasicMainvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/BasicMain.vue?vue&type=script&lang=js
+ /* harmony default export */ var components_BasicMainvue_type_script_lang_js = (BasicMainvue_type_script_lang_js); 
 // EXTERNAL MODULE: external "vuetify/lib/components/VMain"
 var VMain_ = __webpack_require__("1faa");
 
@@ -1375,7 +1388,7 @@ var VMain_ = __webpack_require__("1faa");
 /* normalize component */
 
 var BasicMain_component = normalizeComponent(
-  components_BasicMainvue_type_script_lang_js_,
+  components_BasicMainvue_type_script_lang_js,
   BasicMainvue_type_template_id_5e096dd0_render,
   BasicMainvue_type_template_id_5e096dd0_staticRenderFns,
   false,
@@ -1393,12 +1406,12 @@ var BasicMain_component = normalizeComponent(
 
 installComponents_default()(BasicMain_component, {VContainer: VGrid_["VContainer"],VMain: VMain_["VMain"]})
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14b72d9c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicSide.vue?vue&type=template&id=91e318f0&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"39d063aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicSide.vue?vue&type=template&id=91e318f0
 var BasicSidevue_type_template_id_91e318f0_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-navigation-drawer',{staticClass:"vxg-side",style:(_vm.drawerStyle),attrs:{"app":""}},[_c('v-sheet',{staticStyle:{"display":"flex","flex-direction":"column","height":"100%"}},[_c('div',{staticStyle:{"display":"flex","justify-content":"space-between"}},[_c('div',{domProps:{"innerHTML":_vm._s(_vm.logo)}}),_c('v-icon',{staticStyle:{"width":"48px"},attrs:{"large":"","dark":""},on:{"click":_vm.closeDrawer}},[_vm._v("mdi-chevron-left")])],1),_c('v-btn-toggle',{staticClass:"vxg-toggle",attrs:{"mandatory":""},model:{value:(_vm.menuViewIndex),callback:function ($$v) {_vm.menuViewIndex=$$v},expression:"menuViewIndex"}},_vm._l((_vm.menuViewList),function(menuView){return _c('v-btn',{key:menuView.name,ref:menuView.name,refInFor:true,staticClass:"pa-4 text-center secondary text-no-wrap rounded-sm btn-style text-capitalize",staticStyle:{"height":"70px"},attrs:{"outlined":"","color":"white"},on:{"click":function($event){return _vm.moveRoute(menuView)}}},[_c('div',[_c('v-icon',{staticStyle:{"color":"white"}},[_vm._v(" "+_vm._s(menuView.name == _vm.custom.special.view.name ? 'mdi-fit-to-screen-outline' : 'mdi-dots-square')+" ")]),_c('span',{staticStyle:{"display":"block","font-size":"13px","padding":"5px"}},[_vm._v(" "+_vm._s(menuView.btnTitle)+" ")])],1)])}),1),_vm._l((_vm.menu),function(item){return ('standard' === _vm.menuView.mode)?[(_vm.allow(item))?_c('router-link',{key:item.code,tag:"component",class:item.klass,staticStyle:{"flex-grow":"1"},attrs:{"to":'/'+item.code}},[_c('v-icon',[_vm._v("mdi-"+_vm._s(item.icon))]),_vm._v(" "+_vm._s(item.title)+" ")],1):_vm._e()]:_vm._e()}),('custom' === _vm.menuView.mode)?_c(_vm.menuView.cmp,{tag:"component",attrs:{"spec":_vm.menuView.view.spec}}):_vm._e(),_c('div',{staticStyle:{"flex-grow":"100"}}),_c('v-divider'),(_vm.spec.footer.active)?_c(_vm.spec.footer.cmp,{tag:"component",attrs:{"spec":_vm.spec.footer.spec}}):_vm._e()],2)],1)}
 var BasicSidevue_type_template_id_91e318f0_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BasicSide.vue?vue&type=template&id=91e318f0&
+// CONCATENATED MODULE: ./src/components/BasicSide.vue?vue&type=template&id=91e318f0
 
 // EXTERNAL MODULE: ./node_modules/nua/dist/nua.min.js
 var nua_min = __webpack_require__("ec45");
@@ -1407,10 +1420,10 @@ var nua_min_default = /*#__PURE__*/__webpack_require__.n(nua_min);
 // EXTERNAL MODULE: ./node_modules/gubu/gubu.min.js
 var gubu_min = __webpack_require__("bce7");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicSide.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicSide.vue?vue&type=script&lang=js
 function BasicSidevue_type_script_lang_js_createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = BasicSidevue_type_script_lang_js_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 function BasicSidevue_type_script_lang_js_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return BasicSidevue_type_script_lang_js_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return BasicSidevue_type_script_lang_js_arrayLikeToArray(o, minLen); }
-function BasicSidevue_type_script_lang_js_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+function BasicSidevue_type_script_lang_js_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 //
 //
 //
@@ -1509,7 +1522,7 @@ var SpecShape = Object(gubu_min["Gubu"])({
   })),
   logo: String
 });
-/* harmony default export */ var BasicSidevue_type_script_lang_js_ = ({
+/* harmony default export */ var BasicSidevue_type_script_lang_js = ({
   props: {
     spec: {
       type: Object,
@@ -1563,7 +1576,6 @@ var SpecShape = Object(gubu_min["Gubu"])({
       }
       */
     },
-
     '$route.name': {
       immediate: true,
       handler: function handler(val) {
@@ -1679,10 +1691,10 @@ var SpecShape = Object(gubu_min["Gubu"])({
     }
   }
 });
-// CONCATENATED MODULE: ./src/components/BasicSide.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_BasicSidevue_type_script_lang_js_ = (BasicSidevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/BasicSide.vue?vue&type=style&index=0&id=91e318f0&prod&lang=scss&
-var BasicSidevue_type_style_index_0_id_91e318f0_prod_lang_scss_ = __webpack_require__("c00d");
+// CONCATENATED MODULE: ./src/components/BasicSide.vue?vue&type=script&lang=js
+ /* harmony default export */ var components_BasicSidevue_type_script_lang_js = (BasicSidevue_type_script_lang_js); 
+// EXTERNAL MODULE: ./src/components/BasicSide.vue?vue&type=style&index=0&id=91e318f0&prod&lang=scss
+var BasicSidevue_type_style_index_0_id_91e318f0_prod_lang_scss = __webpack_require__("66cb");
 
 // EXTERNAL MODULE: external "vuetify/lib/components/VBtnToggle"
 var VBtnToggle_ = __webpack_require__("dbe5");
@@ -1703,7 +1715,7 @@ var VSheet_ = __webpack_require__("8fd1");
 /* normalize component */
 
 var BasicSide_component = normalizeComponent(
-  components_BasicSidevue_type_script_lang_js_,
+  components_BasicSidevue_type_script_lang_js,
   BasicSidevue_type_template_id_91e318f0_render,
   BasicSidevue_type_template_id_91e318f0_staticRenderFns,
   false,
@@ -1725,7 +1737,7 @@ var BasicSide_component = normalizeComponent(
 
 installComponents_default()(BasicSide_component, {VBtn: VBtn_["VBtn"],VBtnToggle: VBtnToggle_["VBtnToggle"],VDivider: VDivider_["VDivider"],VIcon: VIcon_["VIcon"],VNavigationDrawer: VNavigationDrawer_["VNavigationDrawer"],VSheet: VSheet_["VSheet"]})
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14b72d9c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicLed.vue?vue&type=template&id=7167a536&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"39d063aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicLed.vue?vue&type=template&id=7167a536
 var BasicLedvue_type_template_id_7167a536_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.allow('list'))?_c('div',[(_vm.show.table)?_c('v-data-table',{attrs:{"dense":"","headers":_vm.headers,"items":_vm.items,"items-per-page":25,"x-custom-filter":"customFilter","footer-props":{
                    itemsPerPageOptions:[25,50,75,100,-1]
                    },"loading":_vm.loading,"sort-by":_vm.sortBy,"sort-desc":_vm.sortDesc,"search":_vm.search},on:{"click:row":_vm.openItem,"update:sortBy":function($event){_vm.sortBy=$event},"update:sort-by":function($event){_vm.sortBy=$event},"update:sortDesc":function($event){_vm.sortDesc=$event},"update:sort-desc":function($event){_vm.sortDesc=$event}},scopedSlots:_vm._u([{key:"loading",fn:function(){return [_c('div',{staticStyle:{"text-align":"left","padding":"5vh"}},[_c('v-progress-linear',{attrs:{"indeterminate":"","color":"blue darken-2"}})],1)]},proxy:true},_vm._l((_vm.headers),function(header){return {key:_vm.itemslot(header),fn:function(ref){
@@ -1734,23 +1746,23 @@ return [_c('div',{key:header.value},[('status'===header.type)?_c('span',[_c('v-c
 var BasicLedvue_type_template_id_7167a536_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('tr',[_c('th',[_vm._v("Field")]),_c('th',[_vm._v("Old")]),_c('th',[_vm._v("New")])])}]
 
 
-// CONCATENATED MODULE: ./src/components/BasicLed.vue?vue&type=template&id=7167a536&
+// CONCATENATED MODULE: ./src/components/BasicLed.vue?vue&type=template&id=7167a536
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicLed.vue?vue&type=script&lang=js&
-function BasicLedvue_type_script_lang_js_typeof(obj) { "@babel/helpers - typeof"; return BasicLedvue_type_script_lang_js_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, BasicLedvue_type_script_lang_js_typeof(obj); }
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicLed.vue?vue&type=script&lang=js
+function BasicLedvue_type_script_lang_js_typeof(o) { "@babel/helpers - typeof"; return BasicLedvue_type_script_lang_js_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, BasicLedvue_type_script_lang_js_typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return BasicLedvue_type_script_lang_js_typeof(key) === "symbol" ? key : String(key); }
-function _toPrimitive(input, hint) { if (BasicLedvue_type_script_lang_js_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (BasicLedvue_type_script_lang_js_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
-function BasicLedvue_type_script_lang_js_createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = BasicLedvue_type_script_lang_js_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e2) { throw _e2; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e3) { didErr = true; err = _e3; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == BasicLedvue_type_script_lang_js_typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != BasicLedvue_type_script_lang_js_typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != BasicLedvue_type_script_lang_js_typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function BasicLedvue_type_script_lang_js_createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = BasicLedvue_type_script_lang_js_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || BasicLedvue_type_script_lang_js_unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function BasicLedvue_type_script_lang_js_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return BasicLedvue_type_script_lang_js_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return BasicLedvue_type_script_lang_js_arrayLikeToArray(o, minLen); }
-function BasicLedvue_type_script_lang_js_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0) { ; } } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function BasicLedvue_type_script_lang_js_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-function BasicLedvue_type_script_lang_js_regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ BasicLedvue_type_script_lang_js_regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, defineProperty = Object.defineProperty || function (obj, key, desc) { obj[key] = desc.value; }, $Symbol = "function" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || "@@iterator", asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator", toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, ""); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return defineProperty(generator, "_invoke", { value: makeInvokeMethod(innerFn, self, context) }), generator; } function tryCatch(fn, obj, arg) { try { return { type: "normal", arg: fn.call(obj, arg) }; } catch (err) { return { type: "throw", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { ["next", "throw", "return"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if ("throw" !== record.type) { var result = record.arg, value = result.value; return value && "object" == BasicLedvue_type_script_lang_js_typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke("next", value, resolve, reject); }, function (err) { invoke("throw", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke("throw", error, resolve, reject); }); } reject(record.arg); } var previousPromise; defineProperty(this, "_invoke", { value: function value(method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(innerFn, self, context) { var state = "suspendedStart"; return function (method, arg) { if ("executing" === state) throw new Error("Generator is already running"); if ("completed" === state) { if ("throw" === method) throw arg; return doneResult(); } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) { if ("suspendedStart" === state) throw state = "completed", context.arg; context.dispatchException(context.arg); } else "return" === context.method && context.abrupt("return", context.arg); state = "executing"; var record = tryCatch(innerFn, self, context); if ("normal" === record.type) { if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg); } }; } function maybeInvokeDelegate(delegate, context) { var methodName = context.method, method = delegate.iterator[methodName]; if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator.return && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel; var record = tryCatch(method, delegate.iterator, context.arg); if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = "normal", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: "root" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if ("function" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) { if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; } return next.value = undefined, next.done = !0, next; }; return next.next = next; } } return { next: doneResult }; } function doneResult() { return { value: undefined, done: !0 }; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), defineProperty(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) { var ctor = "function" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, "toString", function () { return "[object Generator]"; }), exports.keys = function (val) { var object = Object(val), keys = []; for (var key in object) { keys.push(key); } return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) { "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); } }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if ("throw" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if ("root" === entry.tryLoc) return handle("end"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, "catchLoc"), hasFinally = hasOwn.call(entry, "finallyLoc"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error("try statement without catch or finally"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if ("throw" === record.type) throw record.arg; return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, catch: function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if ("throw" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, "next" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }
+function BasicLedvue_type_script_lang_js_regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ BasicLedvue_type_script_lang_js_regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == BasicLedvue_type_script_lang_js_typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator.return && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(BasicLedvue_type_script_lang_js_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, catch: function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
 function BasicLedvue_type_script_lang_js_asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 function BasicLedvue_type_script_lang_js_asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { BasicLedvue_type_script_lang_js_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { BasicLedvue_type_script_lang_js_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 //
@@ -1956,7 +1968,7 @@ function BasicLedvue_type_script_lang_js_asyncToGenerator(fn) { return function 
 //
 //
 
-/* harmony default export */ var BasicLedvue_type_script_lang_js_ = ({
+/* harmony default export */ var BasicLedvue_type_script_lang_js = ({
   props: {
     spec: {
       type: Object,
@@ -1994,28 +2006,26 @@ function BasicLedvue_type_script_lang_js_asyncToGenerator(fn) { return function 
     var _this = this;
     return BasicLedvue_type_script_lang_js_asyncToGenerator( /*#__PURE__*/BasicLedvue_type_script_lang_js_regeneratorRuntime().mark(function _callee() {
       return BasicLedvue_type_script_lang_js_regeneratorRuntime().wrap(function _callee$(_context) {
-        while (1) {
-          switch (_context.prev = _context.next) {
-            case 0:
-              _this.popup_dialogs = _this.fields.reduce(function (acc, field) {
-                return field.popup ? acc[field.popup.name] = false : null, acc;
-              }, {});
-              _context.prev = 1;
-              _context.next = 4;
-              return _this.$store.dispatch('list_' + _this.spec.ent.store_name);
-            case 4:
-              _this.loadState = 'done';
-              _context.next = 11;
-              break;
-            case 7:
-              _context.prev = 7;
-              _context.t0 = _context["catch"](1);
-              _this.loadState = 'error';
-              console.error(_context.t0);
-            case 11:
-            case "end":
-              return _context.stop();
-          }
+        while (1) switch (_context.prev = _context.next) {
+          case 0:
+            _this.popup_dialogs = _this.fields.reduce(function (acc, field) {
+              return field.popup ? acc[field.popup.name] = false : null, acc;
+            }, {});
+            _context.prev = 1;
+            _context.next = 4;
+            return _this.$store.dispatch('list_' + _this.spec.ent.store_name);
+          case 4:
+            _this.loadState = 'done';
+            _context.next = 11;
+            break;
+          case 7:
+            _context.prev = 7;
+            _context.t0 = _context["catch"](1);
+            _this.loadState = 'error';
+            console.error(_context.t0);
+          case 11:
+          case "end":
+            return _context.stop();
         }
       }, _callee, null, [[1, 7]]);
     }))();
@@ -2085,7 +2095,6 @@ function BasicLedvue_type_script_lang_js_asyncToGenerator(fn) { return function 
         });
         //items = items.filter(item=>'op'===item.profile)
       }
-
       return items;
     },
     fields: function fields() {
@@ -2126,8 +2135,8 @@ function BasicLedvue_type_script_lang_js_asyncToGenerator(fn) { return function 
           return active;
         } else if (active && active.field) {
           var show = true;
-          for (var _i2 = 0, _Object$entries = Object.entries(active.field); _i2 < _Object$entries.length; _i2++) {
-            var _Object$entries$_i = _slicedToArray(_Object$entries[_i2], 2),
+          for (var _i = 0, _Object$entries = Object.entries(active.field); _i < _Object$entries.length; _i++) {
+            var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
               name = _Object$entries$_i[0],
               criteria = _Object$entries$_i[1];
             if ('not-empty' === criteria) {
@@ -2276,10 +2285,10 @@ function BasicLedvue_type_script_lang_js_asyncToGenerator(fn) { return function 
     }
   }
 });
-// CONCATENATED MODULE: ./src/components/BasicLed.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_BasicLedvue_type_script_lang_js_ = (BasicLedvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/BasicLed.vue?vue&type=style&index=0&id=7167a536&prod&lang=scss&
-var BasicLedvue_type_style_index_0_id_7167a536_prod_lang_scss_ = __webpack_require__("bef7");
+// CONCATENATED MODULE: ./src/components/BasicLed.vue?vue&type=script&lang=js
+ /* harmony default export */ var components_BasicLedvue_type_script_lang_js = (BasicLedvue_type_script_lang_js); 
+// EXTERNAL MODULE: ./src/components/BasicLed.vue?vue&type=style&index=0&id=7167a536&prod&lang=scss
+var BasicLedvue_type_style_index_0_id_7167a536_prod_lang_scss = __webpack_require__("e7fb");
 
 // EXTERNAL MODULE: external "vuetify/lib/components/VCard"
 var VCard_ = __webpack_require__("b7cf");
@@ -2312,7 +2321,7 @@ var VToolbar_ = __webpack_require__("e34a");
 /* normalize component */
 
 var BasicLed_component = normalizeComponent(
-  components_BasicLedvue_type_script_lang_js_,
+  components_BasicLedvue_type_script_lang_js,
   BasicLedvue_type_template_id_7167a536_render,
   BasicLedvue_type_template_id_7167a536_staticRenderFns,
   false,
@@ -2340,19 +2349,19 @@ var BasicLed_component = normalizeComponent(
 
 installComponents_default()(BasicLed_component, {VBtn: VBtn_["VBtn"],VCard: VCard_["VCard"],VCardActions: VCard_["VCardActions"],VCardText: VCard_["VCardText"],VChip: VChip_["VChip"],VDataTable: VDataTable_["VDataTable"],VDialog: VDialog_["VDialog"],VProgressLinear: VProgressLinear_["VProgressLinear"],VSpacer: VGrid_["VSpacer"],VTextField: VTextField_["VTextField"],VToolbar: VToolbar_["VToolbar"],VToolbarTitle: VToolbar_["VToolbarTitle"]})
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14b72d9c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicFieldPick.vue?vue&type=template&id=f6dac43a&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"39d063aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicFieldPick.vue?vue&type=template&id=f6dac43a
 var BasicFieldPickvue_type_template_id_f6dac43a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-select',{attrs:{"items":_vm.pick(_vm.field),"label":_vm.field.title,"outlined":"","disabled":_vm.field.readonly || !_vm.allow('edit')},model:{value:(_vm.item[_vm.field.name]),callback:function ($$v) {_vm.$set(_vm.item, _vm.field.name, $$v)},expression:"item[field.name]"}})}
 var BasicFieldPickvue_type_template_id_f6dac43a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BasicFieldPick.vue?vue&type=template&id=f6dac43a&
+// CONCATENATED MODULE: ./src/components/BasicFieldPick.vue?vue&type=template&id=f6dac43a
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicFieldPick.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicFieldPick.vue?vue&type=script&lang=js
 function BasicFieldPickvue_type_script_lang_js_slicedToArray(arr, i) { return BasicFieldPickvue_type_script_lang_js_arrayWithHoles(arr) || BasicFieldPickvue_type_script_lang_js_iterableToArrayLimit(arr, i) || BasicFieldPickvue_type_script_lang_js_unsupportedIterableToArray(arr, i) || BasicFieldPickvue_type_script_lang_js_nonIterableRest(); }
 function BasicFieldPickvue_type_script_lang_js_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function BasicFieldPickvue_type_script_lang_js_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return BasicFieldPickvue_type_script_lang_js_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return BasicFieldPickvue_type_script_lang_js_arrayLikeToArray(o, minLen); }
-function BasicFieldPickvue_type_script_lang_js_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-function BasicFieldPickvue_type_script_lang_js_iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0) { ; } } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function BasicFieldPickvue_type_script_lang_js_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function BasicFieldPickvue_type_script_lang_js_iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function BasicFieldPickvue_type_script_lang_js_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 //
 //
@@ -2367,7 +2376,7 @@ function BasicFieldPickvue_type_script_lang_js_arrayWithHoles(arr) { if (Array.i
 //
 //
 
-/* harmony default export */ var BasicFieldPickvue_type_script_lang_js_ = ({
+/* harmony default export */ var BasicFieldPickvue_type_script_lang_js = ({
   props: {
     field: {
       type: Object,
@@ -2421,8 +2430,8 @@ function BasicFieldPickvue_type_script_lang_js_arrayWithHoles(arr) { if (Array.i
     }
   }
 });
-// CONCATENATED MODULE: ./src/components/BasicFieldPick.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_BasicFieldPickvue_type_script_lang_js_ = (BasicFieldPickvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/BasicFieldPick.vue?vue&type=script&lang=js
+ /* harmony default export */ var components_BasicFieldPickvue_type_script_lang_js = (BasicFieldPickvue_type_script_lang_js); 
 // CONCATENATED MODULE: ./src/components/BasicFieldPick.vue
 
 
@@ -2432,7 +2441,7 @@ function BasicFieldPickvue_type_script_lang_js_arrayWithHoles(arr) { if (Array.i
 /* normalize component */
 
 var BasicFieldPick_component = normalizeComponent(
-  components_BasicFieldPickvue_type_script_lang_js_,
+  components_BasicFieldPickvue_type_script_lang_js,
   BasicFieldPickvue_type_template_id_f6dac43a_render,
   BasicFieldPickvue_type_template_id_f6dac43a_staticRenderFns,
   false,
@@ -2449,14 +2458,14 @@ var BasicFieldPick_component = normalizeComponent(
 
 installComponents_default()(BasicFieldPick_component, {VSelect: VSelect_["VSelect"]})
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"14b72d9c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicAuth.vue?vue&type=template&id=6154b0e6&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"39d063aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicAuth.vue?vue&type=template&id=6154b0e6
 var BasicAuthvue_type_template_id_6154b0e6_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.user)?_vm._t("default"):_c('v-container',[_c('v-row',[_c('v-col'),_c('v-col',[_c('v-card',{attrs:{"xstyle":"max-width:40vw"}},[_c('v-card-title',[_vm._v("Sign In")]),_c('v-form',{ref:"form",attrs:{"lazy-validation":""},model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-card-text',[_c('v-text-field',{attrs:{"rules":_vm.emailRules,"label":"Email","required":"","outlined":""},model:{value:(_vm.email),callback:function ($$v) {_vm.email=$$v},expression:"email"}}),_c('v-text-field',{attrs:{"rules":_vm.passwordRules,"label":"Password","required":"","type":"password","outlined":""},model:{value:(_vm.password),callback:function ($$v) {_vm.password=$$v},expression:"password"}})],1),('empty'!=_vm.state)?_c('v-card-text',[_vm._v(" "+_vm._s(_vm.stateMessage[_vm.state])+" ")]):_vm._e(),_c('v-card-actions',[_c('v-spacer'),_c('v-btn',{attrs:{"disabled":!_vm.valid},on:{"click":_vm.signin}},[_vm._v(" Sign In ")])],1)],1)],1)],1),_c('v-col')],1)],1)],2)}
 var BasicAuthvue_type_template_id_6154b0e6_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BasicAuth.vue?vue&type=template&id=6154b0e6&
+// CONCATENATED MODULE: ./src/components/BasicAuth.vue?vue&type=template&id=6154b0e6
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicAuth.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BasicAuth.vue?vue&type=script&lang=js
 //
 //
 //
@@ -2516,7 +2525,7 @@ var BasicAuthvue_type_template_id_6154b0e6_staticRenderFns = []
 //
 //
 
-/* harmony default export */ var BasicAuthvue_type_script_lang_js_ = ({
+/* harmony default export */ var BasicAuthvue_type_script_lang_js = ({
   props: {
     user: Object
   },
@@ -2558,8 +2567,8 @@ var BasicAuthvue_type_template_id_6154b0e6_staticRenderFns = []
     }
   }
 });
-// CONCATENATED MODULE: ./src/components/BasicAuth.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_BasicAuthvue_type_script_lang_js_ = (BasicAuthvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/BasicAuth.vue?vue&type=script&lang=js
+ /* harmony default export */ var components_BasicAuthvue_type_script_lang_js = (BasicAuthvue_type_script_lang_js); 
 // EXTERNAL MODULE: external "vuetify/lib/components/VForm"
 var VForm_ = __webpack_require__("1b42");
 
@@ -2572,7 +2581,7 @@ var VForm_ = __webpack_require__("1b42");
 /* normalize component */
 
 var BasicAuth_component = normalizeComponent(
-  components_BasicAuthvue_type_script_lang_js_,
+  components_BasicAuthvue_type_script_lang_js,
   BasicAuthvue_type_template_id_6154b0e6_render,
   BasicAuthvue_type_template_id_6154b0e6_staticRenderFns,
   false,
@@ -2603,18 +2612,18 @@ installComponents_default()(BasicAuth_component, {VBtn: VBtn_["VBtn"],VCard: VCa
 var package_0 = __webpack_require__("9224");
 
 // CONCATENATED MODULE: ./src/vxg.js
-function vxg_typeof(obj) { "@babel/helpers - typeof"; return vxg_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, vxg_typeof(obj); }
-function vxg_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function vxg_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? vxg_ownKeys(Object(source), !0).forEach(function (key) { vxg_defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : vxg_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function vxg_typeof(o) { "@babel/helpers - typeof"; return vxg_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, vxg_typeof(o); }
+function vxg_ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function vxg_objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? vxg_ownKeys(Object(t), !0).forEach(function (r) { vxg_defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : vxg_ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function vxg_defineProperty(obj, key, value) { key = vxg_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 function vxg_createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = vxg_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 function vxg_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return vxg_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return vxg_arrayLikeToArray(o, minLen); }
-function vxg_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+function vxg_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, vxg_toPropertyKey(descriptor.key), descriptor); } }
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
-function vxg_toPropertyKey(arg) { var key = vxg_toPrimitive(arg, "string"); return vxg_typeof(key) === "symbol" ? key : String(key); }
-function vxg_toPrimitive(input, hint) { if (vxg_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (vxg_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function vxg_toPropertyKey(t) { var i = vxg_toPrimitive(t, "string"); return "symbol" == vxg_typeof(i) ? i : i + ""; }
+function vxg_toPrimitive(t, r) { if ("object" != vxg_typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != vxg_typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
 
 
@@ -2642,7 +2651,7 @@ var vxg_Vxg = /*#__PURE__*/function () {
     this.config(config);
     this.util = util;
   }
-  _createClass(Vxg, [{
+  return _createClass(Vxg, [{
     key: "config",
     value: function config(custom_config) {
       // TODO: deep, validation
@@ -2717,7 +2726,6 @@ var vxg_Vxg = /*#__PURE__*/function () {
       window.vxg = this;
     }
   }]);
-  return Vxg;
 }();
 vxg_Vxg.info = {
   version: package_0.version,
