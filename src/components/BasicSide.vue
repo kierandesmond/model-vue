@@ -1,5 +1,6 @@
 <template>
   <v-navigation-drawer app class="vxg-side" :style="drawerStyle">
+    
     <v-sheet class="d-flex flex-column h-100">
       <!-- Header -->
       <div class="d-flex justify-space-between">
@@ -20,6 +21,7 @@
           color="white"
         >
           <div>
+            
             <v-icon v-once color="white">
               {{ menuView.name === custom.special.view.name ? 'mdi-fit-to-screen-outline' : 'mdi-dots-square' }}
             </v-icon>
@@ -50,6 +52,7 @@
       <v-spacer></v-spacer>
       <v-divider></v-divider>
 
+      
       <!-- Footer -->
       <component
         v-if="spec.footer.active"
@@ -254,7 +257,7 @@ nav.vxg-side {
     background-color: rgb(40, 51, 72) !important;
     width: 141px;
     height: 281px;
-    padding: 42px 46px !important; // Added padding
+
     margin: 4px !important; // Added margin for spacing between buttons
     &.selected-btn {
         background-color: rgb(var(--vxg-cb1)) !important;
